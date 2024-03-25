@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Protest+Revolution&family=Rock+Salt&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Protest Revolution", sans-serif;
+    background-image: url(fundo2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+
+
+
+.header{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.gallery-container{
+    margin-top: 10%;
+    margin-left: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2vw;
+    padding: 0 1vw;
+}
+
+.text{
+    color: rgb(194, 9, 9);
+    text-align: center;
+    font-size: 40px;
+    
+}
+.gallery-items{
+    width: 210px;
+    height: 300px;
+    flex-grow: 1;
+    transition: transform .5s linear;
+}
+.gallery-items img{
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.gallery-items:hover{
+    transform:scale(1.1);
+    z-index: 1;
+    width: auto;
+    height: auto;
+}
+.videos{
+    margin-top: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2vw;
+    padding: 0 1vw;
+}
